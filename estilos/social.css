@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*::-webkit-scrollbar  é uma pseudo-classe CSS que afeta o estilo da barra de rolagem*/
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+img{
+    width: 100vw;   /*Faz a imagem ocupar toda a tela horizontalmente*/
+}
+
+a{
+    display: block;   /*Para jogar o botão ACESSE lá pra baixo*/
+    background-color: darkred;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    color: white;
+    
+}
+a:hover{
+    background-color: red;
+}   
